@@ -10,7 +10,7 @@ def load_water_model():
 
 model = load_water_model()
 
-st.title("💧 Water Filtration Classification System")
+st.title("Water Filtration Classification System")
 st.write("Upload an image of water and find out if it's clean or not clean.")
 
 file = st.file_uploader("Upload a water image", type=["jpg", "jpeg", "png"])
